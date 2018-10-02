@@ -9,6 +9,7 @@ class EmailParser
   end 
   
   def parse
-    emails.split(",")
+    new_emails = []
+    emails.each do {|string| string.split(/[,/)}
   end 
 end 
