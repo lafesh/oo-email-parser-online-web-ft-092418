@@ -10,6 +10,6 @@ class EmailParser
   
   def parse
     new_emails = []
-    emails.each do {|string| string.split(/[,/)}
+    emails.each do {|string| string.split(/[,\s]/)}
   end 
 end 
