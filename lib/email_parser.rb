@@ -10,6 +10,6 @@ class EmailParser
   
   def parse
     new_emails = []
-    emails.split(/[, ]/)
+    emails.split(/[, ]\s/)
   end 
 end 
